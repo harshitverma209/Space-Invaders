@@ -1,0 +1,42 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: arial, helvetica, sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+.gameover{
+    font-size:30px;
+}
+.st0{fill:#231F20;stroke:#231F20;stroke-width:10;stroke-miterlimit:10;}
+.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+.messageText{
+    font-size:50px;
+}
+.retry-btn{
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.hidden{
+    visibility:hidden;
+}
+.column {
+    float: left;
+    width: 40%;
+}
+.game{
+    width:600px;
+}
+.instructions{
+    margin-left:20px;
+    font-size: large;
+    line-height: 35px;
+    margin-top: 20px;
+    word-wrap: normal;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
